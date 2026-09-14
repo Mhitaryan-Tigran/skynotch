@@ -1,0 +1,45 @@
+name: Bug
+description: Something in the app does not work.
+title: "Bug: "
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: "SkyNotch version"
+      description: Settings shows it under the app name.
+      placeholder: "0.9.0"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: macOS version
+      placeholder: "15.1"
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model
+      placeholder: 14-inch laptop, 2024
+  - type: dropdown
+    id: displays
+    attributes:
+      label: Displays
+      options:
+        - One
+        - Two
+        - Three or more
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: A film, a track, a setting, whatever narrows it down.
