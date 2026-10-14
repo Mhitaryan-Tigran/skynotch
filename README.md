@@ -1,50 +1,81 @@
-# SkyNotch
+<h1 align="center">SkyNotch</h1>
 
-A player that lives in the notch of the built-in display.
+<p align="center">The MacBook notch, finally put to work.<br>Now playing, your next meeting, volume, brightness and notifications, right where your eyes already are.</p>
 
-![The open card](docs/open.png)
+<p align="center">
+  <img src="docs/hero.webp" width="820" alt="SkyNotch in the MacBook notch">
+</p>
 
-![Lyrics on the back of the cover](docs/lyrics.png)
+<p align="center"><a href="https://github.com/Mhitaryan-Tigran/skynotch/releases/download/v1.0.0-beta.1/SkyNotch-1.0.0-beta.1.dmg"><b>Download the free beta</b></a> · macOS 15 or later</p>
 
-| Playing | Volume | Charging |
-| --- | --- | --- |
-| ![Playing](docs/strip.png) | ![Volume](docs/volume.png) | ![Charging](docs/charging.png) |
+## Now Playing
 
-## What it does
+<table>
+<tr>
+<td align="center" width="33%"><img src="docs/live.png" width="270"><br><b>Live</b><br><sub>artwork and a waveform that follows the music</sub></td>
+<td align="center" width="33%"><img src="docs/player.png" width="270"><br><b>Player</b><br><sub>scrub, skip, like and pick the output</sub></td>
+<td align="center" width="33%"><img src="docs/peek.png" width="270"><br><b>Peek</b><br><sub>the new title drops in when the track changes</sub></td>
+</tr>
+</table>
 
-- Shows whatever is playing, from any app: music apps, a browser tab, anything that reports to the system.
-- Swipe down with two fingers to open the card, swipe up to close it. Click the cover to flip it to time-synced lyrics.
-- Volume, brightness, charging and headphones appear in the notch instead of a panel in the middle of the screen.
-- A timer, the countdown to your next meeting and a shelf for files, each in its own card; swipe sideways to move between them.
-- A dot in the notch while the camera or the microphone is in use.
-- Updates itself, with your say-so. Settings can turn that off.
+Apple Music, Spotify and any app that reports what is playing, browsers included.
 
-## Requirements
+## Calendar
 
-macOS 14 or later on a laptop with a notch.
+<p align="center"><img src="docs/calendar.png" width="560" alt="Today and tomorrow in the notch"></p>
 
-## Permissions
+A countdown to your next event sits in the notch. Open it for today and tomorrow, join Zoom, Google Meet, Teams, FaceTime or Webex in one click, and get told when it is time to leave. Empty days show the weather.
 
-All optional; without one, only its feature is off.
+## Volume and brightness
 
-- **Accessibility** lets SkyNotch take the volume and brightness keys, so the system panel stays hidden.
-- **Screen Recording** lets the sound wave follow the actual audio.
-- **Calendars** lets the next meeting count down in the notch.
+<table>
+<tr>
+<td align="center" width="50%"><img src="docs/volume.png" width="400"><br><b>Volume</b><br><sub>with the device you are listening on</sub></td>
+<td align="center" width="50%"><img src="docs/brightness.png" width="400"><br><b>Brightness</b><br><sub>for the built-in and external displays</sub></td>
+</tr>
+</table>
 
-## Privacy
+The system bezels are replaced by the notch, in white, accent or glow, with or without a label.
 
-No analytics, no account. Lyrics come from lrclib.net, looked up by title, artist and duration.
+## Notifications
 
-## Download
+| Event | In the notch |
+|---|---|
+| AirPods | connected, with their battery, and a warning when it runs low |
+| Battery | charging, low battery and Low Power Mode |
+| Focus | the mode you just switched to |
+| Lock screen | battery, connectivity, focus, calendar, weather and a now-playing player |
 
-Get the disk image from the [latest release](https://github.com/Mhitaryan-Tigran/skynotch/releases/latest), open it and drag SkyNotch to Applications. The current version is 0.9.0; every build is signed and notarised.
+## Gestures
 
-## Feedback
+| Gesture | Does |
+|---|---|
+| Hover | lifts the notch; over the artwork it shows the title |
+| Swipe down | opens the notch |
+| Swipe up | dismisses the current activity |
+| Swipe left or right | next or previous track, in the direction your trackpad scrolls |
 
-Open an issue here. Bug reports are most useful with the SkyNotch version, the macOS version and the Mac model.
+## Settings
 
-## Source
+<table>
+<tr>
+<td align="center" width="33%"><img src="docs/settings-general.png" width="250"><br><sub>General</sub></td>
+<td align="center" width="33%"><img src="docs/settings-nowplaying.png" width="250"><br><sub>Now Playing</sub></td>
+<td align="center" width="33%"><img src="docs/settings-lockscreen.png" width="250"><br><sub>Lock Screen</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="docs/settings-sound.png" width="250"><br><sub>Sound</sub></td>
+<td align="center" width="33%"><img src="docs/settings-display.png" width="250"><br><sub>Display</sub></td>
+<td align="center" width="33%"><img src="docs/settings-battery.png" width="250"><br><sub>Battery</sub></td>
+</tr>
+</table>
 
-The source is not in this repository. What lives here is the release, the issue tracker and this page.
+Hide it in fullscreen, while gaming, in Mission Control or from screen recordings, pick the display, tune haptics and the size of the notch.
 
-© 2026 Tigran Mhitaryan.
+## Install
+
+1. Download the [disk image](https://github.com/Mhitaryan-Tigran/skynotch/releases/download/v1.0.0-beta.1/SkyNotch-1.0.0-beta.1.dmg) and drag SkyNotch to Applications.
+2. Open it and follow the short setup. Each permission is asked only for the feature that needs it: Accessibility for the volume and brightness keys, audio capture for the waveform, Calendar, Location for the weather, Bluetooth for AirPods battery.
+3. SkyNotch updates itself.
+
+Free during the beta. No account, no analytics. Feedback: [support@skynotch.app](mailto:support@skynotch.app) or an [issue](https://github.com/Mhitaryan-Tigran/skynotch/issues).
