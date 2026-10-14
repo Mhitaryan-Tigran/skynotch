@@ -6,7 +6,7 @@
   <img src="docs/hero.webp" width="820" alt="SkyNotch in the MacBook notch">
 </p>
 
-<p align="center"><a href="https://github.com/Mhitaryan-Tigran/skynotch/releases/download/v1.0.0-beta.1/SkyNotch-1.0.0-beta.1.dmg"><b>Download the free beta</b></a> · macOS 15 or later</p>
+<p align="center"><a href="https://github.com/Mhitaryan-Tigran/skynotch/releases/download/v1.0.0-beta.1/SkyNotch-1.0.0-beta.1.dmg"><b>Download the free beta</b></a></p>
 
 ## Now Playing
 
